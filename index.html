@@ -17,13 +17,14 @@
 
 <body>
 
+<!--START HEADER-->
 <div class="container">
     <header id="navigation">
         <div class="logo"><p>Kev-Dev</p></div>
         <nav id="navbar">
             <ul class="nav-list" role="list">
                 <li class="nav-item">
-                    <a class="nav-link" href="#welcome-section">A propos</a>
+                    <a class="nav-link" href="#welcome-section">À propos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects-section">Projets</a>
@@ -35,62 +36,138 @@
         </nav>
     </header>
 </div>
+<!--END HEADER-->
 
+<!--START WELCOME SECTION-->
 <div class="container">
     <section id="welcome-section">
-        <h1>
-            Bonjour, je suis Kevin <span id="welcome-title">Développeur FullStack</span>
+        <h1 class="welcome-title">
+            Bonjour, je suis Kevin <span>Développeur FullStack</span>
         </h1>
     </section>
 </div>
+<!--END WELCOME SECTION-->
 
+<!--START PROJECTS SECTION-->
 <div class="container">
     <section id="projects-section">
-        <h2 id="projects-title">Voici quelques-uns de mes projets</h2>
-        <div id="project-grid">
+        <h2 class="projects-title">Voici quelques-uns de mes projets</h2>
+        <div class="projects-grid">
             <div class="project-card">
-                <img class="project-image" src="src/images/super-app.png" alt="Screenshot du site Internet Super App"/>
-                <p class="project-name">Super App</p>
+                <a class="project-link" href="https://superapp.kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="src/images/super-app.png"
+                         alt="Screenshot du site Internet Super App"/>
+                    <p class="project-name">
+                        Super App
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/huddle.png" alt="Screenshot du site Internet Huddle"/>
-                <p class="project-name">Huddle</p>
+                <a class="project-link" href="https://huddle.kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="src/images/huddle.png" alt="Screenshot du site Internet Huddle"/>
+                    <p class="project-name">
+                        Huddle
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/ubiquity.png" alt="Screenshot du site Internet Ubiquity"/>
-                <p class="project-name">Ubiquity</p>
+                <a class="project-link" href="https://ubiquity.kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="src/images/ubiquity.png"
+                         alt="Screenshot du site Internet Ubiquity"/>
+                    <p class="project-name">
+                        Ubiquity
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/santas-helper.png" alt="Screenshot du site Internet Santa's Helper"/>
-                <p class="project-name">Santa's Helper</p>
+                <a class="project-link" href="https://santas-helper.kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="src/images/santas-helper.png"
+                         alt="Screenshot du site Internet Santa's Helper"/>
+                    <p class="project-name">
+                        Santa's Helper
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
             <div class="project-card">
-                <img class="project-image" src="https://picsum.photos/300" alt="Screenshot du site Internet "/>
-                <p class="project-name">Projet 5</p>
+                <a class="project-link" href="https://kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="https://picsum.photos/300" alt="Screenshot du site Internet "/>
+                    <p class="project-name">
+                        Projet 5
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
             <div class="project-card">
-                <img class="project-image" src="https://picsum.photos/300" alt="Screenshot du site Internet "/>
-                <p class="project-name">Projet 6</p>
+                <a class="project-link" href="https://kev-dev.fr/" target="_blank">
+                    <img class="project-image" src="https://picsum.photos/300" alt="Screenshot du site Internet "/>
+                    <p class="project-name">
+                        Projet 6
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </p>
+                </a>
             </div>
         </div>
 
-        <a id="profil-link" href="https://github.com/KevinBertaux" target="_blank">Show All</a>
+        <a id="project-all-link" href="https://github.com/KevinBertaux" target="_blank">
+            Show All
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
     </section>
 </div>
+<!--END PROJECTS SECTION-->
 
+<!--START CONTACT SECTION-->
 <div class="container">
     <section id="contact-section">
-        <h3>
-            Besoin de donner vie à vos projets ? <span id="contact-title">Transformons vos idées en réalité !</span>
-        </h3>
+        <h2 class="contact-title">
+            Besoin de donner vie à vos projets ?
+            <span>Transformons vos idées en réalité !</span>
+        </h2>
+        <ul class="contact-list" role="list">
+            <li class="contact-item">
+                <a href="https://www.linkedin.com/in/kevin-bertaux/" class="contact-link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="https://github.com/KevinBertaux" class="contact-link" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                    GitHub
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="mailto:kevinbertaux+kev-dev@gmail.com" class="contact-link" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                    Envoyer un mail
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="" class="contact-link">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    Mon CV
+                </a>
+            </li>
+        </ul>
     </section>
 </div>
+<!--END CONTACT SECTION-->
 
+<!--START FOOTER-->
 <div class="container">
     <footer>
-        <p>&copy; Kev-Dev.fr 2023</p>
+        <p>&copy;2024. Kevin BERTAUX</p>
     </footer>
 </div>
+<!--END FOOTER-->
+
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
