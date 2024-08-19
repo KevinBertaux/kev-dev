@@ -10,9 +10,9 @@
   --clr-text-primary: #fff;
   --clr-back-primary: #000;
 
-  --main-bg-color: #2195BF;
-  --second-bg-color: #31748C;
-  --accent-bg-color: #BF3454;
+  --main-bg-color: #3B8095;
+  --second-bg-color: #043341;
+  --accent-bg-color: #943A54;
 }
 
 /*#endregion */
@@ -82,6 +82,11 @@ header {
   align-items: center;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: var(--clr-text-primary);
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -121,7 +126,6 @@ li:hover {
 #contact-section {
   background-color: var(--main-bg-color);
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,9 +133,10 @@ li:hover {
 
 .welcome-title {
   font-size: 10rem;
+  font-weight: 700;
   letter-spacing: .6rem;
   text-align: center;
-  line-height: 8rem;
+  line-height: 10rem;
 }
 
 .welcome-title span {
@@ -229,7 +234,7 @@ li:hover {
   display: block;
   text-decoration: none;
   width: 18rem;
-  margin: 4rem auto 0;
+  margin: 4rem auto 4rem;
   padding: 2rem;
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
@@ -241,17 +246,18 @@ li:hover {
 /*#endregion */
 
 /*#region Contact Section */
-#contact-section {
+#contact-section, .contact-title {
   display: flex;
   flex-direction: column;
 }
 
 .contact-title {
-  font-size: 7rem;
+  font-size: 6rem;
+  align-items: center;
 }
 
 .contact-title span {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-style: italic;
 }
 
@@ -266,12 +272,20 @@ li:hover {
 
 .contact-item {
   padding: 1rem;
+  margin: 1.4rem 0.8rem 0;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-item:hover {
+  background-color: inherit;
+  transform: translateY(1rem);
 }
 
 .contact-link {
   color: var(--clr-text-primary);
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   text-decoration: none;
+  text-shadow: 2px 2px 1px #1f1f1f;
 }
 
 /*#endregion */
